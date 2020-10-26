@@ -1,7 +1,7 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 
-class PostFormPage extends React.Component {
+class CreatePage extends React.Component {
   state = {
     error: false,
     success: false,
@@ -72,4 +72,4 @@ class PostFormPage extends React.Component {
   }
 }
 
-export default PostFormPage;
+export default CreatePage;
